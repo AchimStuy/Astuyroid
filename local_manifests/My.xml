@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<!-- Google Pixel 3a -->
+	<project path="device/google/sargo" name="LineageOS/android_device_google_sargo" remote="github" />
+
+</manifest>
