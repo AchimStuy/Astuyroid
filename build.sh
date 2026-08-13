@@ -8,6 +8,7 @@ podman run \
     -e "DEVICE_LIST=sargo" \
     -e "MAKE_IMG_ZIP_FILE=true" \
     -e "WITH_AVB=true" \
+    -e "WITH_GMS=true" \
     -v "./cache:/srv/ccache" \
     -v "./keys:/srv/keys" \
     -v "./local_manifests:/srv/local_manifests" \
