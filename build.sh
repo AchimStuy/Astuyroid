@@ -5,7 +5,7 @@ podman pull lineageos4microg/docker-lineage-cicd
 podman run \
     -e "BRANCH_NAME=lineage-22.2" \
     -e "BUILD_TYPE=user" \
-    -e "DEVICE_LIST=sargo" \
+    -e "DEVICE_LIST=walleye,sargo" \
     -e "MAKE_IMG_ZIP_FILE=true" \
     -e "WITH_AVB=true" \
     -e "WITH_GMS=true" \
